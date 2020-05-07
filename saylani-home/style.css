@@ -1,0 +1,323 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: #316DC3;
+    display: flex;
+}  
+.icon{
+     /* float: left; */
+     margin-left:35px;
+}   
+.icon img{
+    height: 18px;
+    width: 18px;
+}
+.icon ul{
+    list-style-type: none;
+}
+.icon ul li{
+    display: inline-block;
+}
+.icon ul li a{
+    padding: 8px;
+}
+.icon ul li a:hover{
+    background-color: rgb(128, 116, 207);
+}
+a:active{
+    background-color: #316DC3;
+}
+p{
+    margin-top: 0px;
+    /* float: left; */
+    margin-left: 140px;
+    margin-top: 15px;
+    color:aqua;
+    font-size: 15px;
+    font-weight: 10px;
+}
+header .btn{
+    
+    margin-left: 70px;
+    margin-top: 13px;
+}
+header .btn button{
+    height: 27px;
+    background-color: #F5F5F5;
+    border: none;
+    margin-left: 3px;
+    border: 1px solid brown;
+}
+.btn button a{
+    text-decoration: none;
+    color: brown;
+}
+.header2{
+   width: 100%;
+   background-color: #F7F8FA;
+   display: flex;
+
+}
+.header2 img{
+    height: 50px;
+    position: relative;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+.nav-bar{
+        /* float: right; */
+        margin-left: 230px;
+        clear: both;
+}
+.nav-bar ul{
+    list-style-type: none;
+    margin-right: 55px;
+}
+.nav-bar ul li{
+    display: inline-block;
+    margin-top: 7px;
+}
+.nav-bar ul li a{
+    text-decoration:none;
+    margin-left: 10px;
+    padding: 10px;
+    color: black;
+    border-radius: 17px;
+}
+.nav-bar ul li a:hover{
+    background-color: #316DC3;
+    color: white;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    height: 520px;
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.news{
+    clear: both;
+    width: 90%;
+    margin-left: 60px;
+}
+.news marquee{
+    background-color: #316DC3;
+    color:white;
+    padding: 7px;
+    margin-top: 5px;
+}
+.content{
+    width: 100%;
+    background-color: #F7F8FA;
+}
+.content .text {
+      text-align: center;
+      margin-top: 40px;
+}
+.saylogo{
+    text-align: center;
+}
+.saylogo img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+.cntnt{
+    
+}
+.cntnt p{
+    width: 80%;
+    text-align: center;
+    color: #787878;
+    text-align: justify;
+}
+
+.sayserv{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: #2755E9;
+    margin-top: 100px;
+}
+.sayserv div{
+    padding: 5px;
+}
+.div1{
+    background-color: #2755E9;
+    flex: 1;
+}
+.img-icon{
+    height: 50px;
+    width: 50px;
+    margin: 50px 130px; 
+}
+.div1 h1,h3{
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+}
+.div2{
+    background-color: #2755E9;
+    flex: 1;
+}
+.div2 h1,h3{
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+}
+.div3{
+    background-color: #2755E9;
+    flex: 1;
+}
+.div3 h1,h3{
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+}
+.div4{
+    background-color: #2755E9;
+    flex: 1;
+}
+.div4 h1,h3{
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+}
+.boxes{
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: #F7F8FA;
+    text-align: center;
+}
+.box1{
+    width: 330px;
+    height: 170px;
+    box-shadow: 3px 8px 53px -3px rgba(209,175,209,1);
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.box1:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.box1 img{
+    width: 50px;
+    height: 50px;
+    margin: 40px 130px;
+}
+.box1 h3{
+    margin-top: -20px;
+    text-align: center;
+    color: #316DC3;
+}
+.mission{
+    clear: both;
+    text-align: center;
+    margin-top: 50px;
+    height: 130px;
+    width: 100%;
+}
+.mission h2{
+    margin-top: 80px;
+    float: left;
+    margin-left: 117px;
+    color: #316DC3;
+}
+.mission h3{
+    margin-top: 80px;
+    float: right;
+    margin-right: 255px;
+    color: #316DC3;
+    font-size: 20px;
+}
+.mission hr{
+    float: right;
+    width: 300px;
+    margin-right: 122px;
+    
+}
+.projects{
+    height: 200px;
+    width: 70%;
+    margin-left: 85px;
+}
+ .para{
+    float: right;
+    width: 300px;
+    height: 190px;
+    margin-top: -180px;
+    margin-right: 122px;
+}
+.para marquee{
+    height: 190px;
+    color: #808080;
+
+}
+.upcoming{
+    height: 70px;
+    width: 343px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #F7F8FA;
+    
+}
+.upcoming img{
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+}
+.upcoming h3{
+    color: #316DC3;
+    margin-top: -40px;
+    margin-left: -90px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.gallery{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.gallery img{
+    float: left;
+    height: 160px;
+    width: 240px;
+    margin-left: 5px;
+}
+.gallery img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: #25272E;
+    margin-top: 360px;
+    display: flex;
+    
+}
+.f{
+    width: 30%;
+    height: 250px;
+    margin-left:30px;
+    margin-top: 40px;
+    color: #A7A7A8;
+}
+.footer2{
+    width: 100%;
+    height: 50px;
+    background-color: #316DD9;
+}

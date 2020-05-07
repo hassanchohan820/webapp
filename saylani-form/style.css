@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logoimg{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.logoimg img{
+    width: 35%;
+    height: 100px;
+    margin-top: 6px;
+} 
+.heading{
+    text-align: center;
+    width: 100%;
+}
+.heading h1{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #0984e3;
+}
+.regform{
+    width: 100%;
+}
+form{
+
+}
+.regform{
+    background-color: rgba(60, 68, 138, 0.432);
+}
+button{
+    width: 15%;
+    height: 30px;
+    background-color: rgb(34, 112, 27);
+    border: none;
+}
+button:focus{
+    display: none;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: rgb(223, 117, 31);
+}

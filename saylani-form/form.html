@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logoimg"><img src="saylani-logo.png" alt=""></div>
+    <div class="heading"><h1><u>STUDENT REGISTRATION FORM</u></h1></div>
+    <br>
+    <div class="regform">
+        <form action="">
+            <table align="center" cellpadding="6px" width="70%">
+                <tr>
+                    <td><label for="">FIRST NAME </label></td>
+                    <td><input type="text" placeholder="enter first name" maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td><label for="">LAST NAME</label></td>
+                    <td><input type="text" placeholder="enter last name" maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td><label for="">DATE OF BIRTH</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="">E-MAIL ADDRESS</label></td>
+                    <td><input type="email" placeholder="enter email address"></td>
+                </tr>
+                <tr>
+                    <td><label for="">PHONE NUMBER</label></td>
+                    <td><input type="number" placeholder="enter phone number" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="">GENDER</label></td>
+                    <td>
+                        <input type="radio" id="m" name="gender">
+                        <label for="m">Male</label>
+                        <input type="radio" id="f" name="gender">
+                        <label for="f">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="t">Address</label></td>
+                    <td><textarea name="" id="t" cols="30" rows="5"></textarea></td>    
+                </tr>
+                <tr>
+                    <td><label for="">City</label></td>
+                    <td><input type="text" placeholder="enter city name " maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td><label for="">PIN CODE</label></td>
+                    <td><input type="number" placeholder="enter pin code" maxlength="6"</td>
+                </tr>
+                <tr>
+                    <td><label for="">STATE</label></td>
+                    <td><input type="text" placeholder="enter state name" maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td><label for="">COUNTRY</label></td>
+                    <td><input type="text" placeholder="enter country"></td>
+                </tr>
+                <tr>
+                    <td><label for="">HOBIES</label></td>
+                    <td><label for="draw">Drawing</label>
+                        <input type="checkbox" id="draw">
+                        <label for="read">Readinng</label>
+                        <input type="checkbox" id="read">
+                        <label for="dance">Dancing</label>
+                        <input type="checkbox" id="dance">
+                        <label for="sing">Singing</label>
+                        <input type="checkbox" id="sing"><br>
+                        <label for="other">Others</label>
+                        <input type="checkbox" id="other">
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Qualification</label></td>
+                    <td>
+                        <table > <!-- Inner table start -->
+                            <tr>
+                                <th>SI NO.</th>
+                                <th>Examination</th>
+                                <th>Board</th>
+                                <th>Percentage</th>
+                                <th>Year of passing</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Class X||</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Master</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                        </table>  <!-- Inner table ended -->
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label for="">Course <br>Applied for</label></td>
+                    <td>
+                        <label for="ba">B.A</label>
+                        <input type="checkbox" id="ba">
+                        <label for="bcom">B.com</label>
+                        <input type="checkbox" id="bcom">    
+                        <label for="bsc">BSC</label>
+                        <input type="checkbox" id="bsc"> 
+                        <label for="bca">BCA</label>
+                        <input type="checkbox" id="bca">   
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <button type="submit"><a href="popup.html">submit</a></button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+</body>
+</html>
